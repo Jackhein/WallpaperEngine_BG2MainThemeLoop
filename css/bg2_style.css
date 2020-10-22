@@ -1,0 +1,22 @@
+body {
+    background-image: url("../img/image_cloud_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  50% 25%;
+}
+
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+div.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
